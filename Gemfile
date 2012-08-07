@@ -7,11 +7,13 @@ gem 'rails', '3.2.5'
 
 gem 'sqlite3'
 gem 'gravatar_image_tag', '0.1.0'
+gem 'will_paginate', '3.0.3'
 
 group :development do
 gem 'rspec-rails', '>= 2.3'
 gem 'annotate', ">=2.5.0.pre1"
 gem 'autotest'
+gem 'faker', '1.0.1'
 end
 
 group :test do
