@@ -11,6 +11,7 @@ gem 'will_paginate', '3.0.3'
 gem 'mysql2'
 gem 'pg', '0.14.0'
 gem 'thin'
+gem 'taps'
 
 
 group :development do
