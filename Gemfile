@@ -5,18 +5,25 @@ gem 'rails', '3.2.5'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+
 gem 'gravatar_image_tag', '0.1.0'
 gem 'will_paginate', '3.0.3'
+gem 'mysql2'
+gem 'pg', '0.14.0'
+gem 'thin'
+
 
 group :development do
+# gem 'sqlite3'
 gem 'rspec-rails', '>= 2.3'
 gem 'annotate', ">=2.5.0.pre1"
 gem 'autotest'
 gem 'faker', '1.0.1'
+
 end
 
 group :test do
+# gem 'sqlite3'
 gem 'rspec', '>= 2.3'
 gem 'webrat', '0.7.1'
 gem 'autotest'
