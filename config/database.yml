@@ -8,9 +8,11 @@ development:
   encoding: unicode
   database: development
   username: postgres
-  password:   
- # pool: 5
- # timeout: 5000
+  password: noentry1  
+ pool: 5
+ host: localhost
+ port: 13993
+ timeout: 5000
   
 
 # Warning: The database defined as "test" will be erased and
@@ -21,8 +23,10 @@ test:
   encoding: unicode
   database: test
   username: postgres
-  password: 
- # pool: 5
+  password: noentry1
+  pool: 5
+  host: localhost
+  port: 13993
 #  timeout: 5000
 
 production:
@@ -30,6 +34,8 @@ production:
   encoding: unicode
   database: production
   username: postgres
-  password: 
- # pool: 5
+  password: noentry1
+  pool: 5
+  host: localhost
+  port: 13993
  # timeout: 5000
