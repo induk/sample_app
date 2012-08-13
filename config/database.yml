@@ -9,8 +9,8 @@ development:
   database: development
   username: postgres
   password:   
-  pool: 5
-  timeout: 5000
+ # pool: 5
+ # timeout: 5000
   
 
 # Warning: The database defined as "test" will be erased and
@@ -22,8 +22,8 @@ test:
   database: test
   username: postgres
   password: 
-  pool: 5
-  timeout: 5000
+ # pool: 5
+#  timeout: 5000
 
 production:
   adapter: postgresql
@@ -31,5 +31,5 @@ production:
   database: production
   username: postgres
   password: 
-  pool: 5
-  timeout: 5000
+ # pool: 5
+ # timeout: 5000

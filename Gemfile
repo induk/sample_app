@@ -8,14 +8,14 @@ gem 'rails', '3.2.5'
 
 gem 'gravatar_image_tag', '0.1.0'
 gem 'will_paginate', '3.0.3'
-gem 'mysql2'
-gem 'pg', '0.14.0'
+
+
 gem 'thin'
-gem 'taps'
 
 
 group :development do
-# gem 'sqlite3'
+gem 'postgres'
+gem 'taps'
 gem 'rspec-rails', '>= 2.3'
 gem 'annotate', ">=2.5.0.pre1"
 gem 'autotest'
@@ -24,7 +24,7 @@ gem 'faker', '1.0.1'
 end
 
 group :test do
-# gem 'sqlite3'
+gem 'postgres'
 gem 'rspec', '>= 2.3'
 gem 'webrat', '0.7.1'
 gem 'autotest'
@@ -34,6 +34,9 @@ gem 'autotest-growl'
 gem 'factory_girl_rails', '1.0'
 end
 
+group :production do
+gem 'pg', '0.14.0'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
