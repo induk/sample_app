@@ -14,7 +14,7 @@ gem 'thin'
 
 
 group :development do
-gem 'postgres'
+gem 'pg', '0.14.0'
 gem 'taps'
 gem 'rspec-rails', '>= 2.3'
 gem 'annotate', ">=2.5.0.pre1"
@@ -24,7 +24,7 @@ gem 'faker', '1.0.1'
 end
 
 group :test do
-gem 'postgres'
+gem 'pg', '0.14.0'
 gem 'rspec', '>= 2.3'
 gem 'webrat', '0.7.1'
 gem 'autotest'

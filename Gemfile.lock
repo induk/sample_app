@@ -76,8 +76,6 @@ GEM
     nokogiri (1.5.5)
     pg (0.14.0)
     polyglot (0.3.3)
-    postgres (0.8.1)
-      pg (~> 0)
     rack (1.4.1)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -171,7 +169,6 @@ DEPENDENCIES
   gravatar_image_tag (= 0.1.0)
   jquery-rails
   pg (= 0.14.0)
-  postgres
   rails (= 3.2.5)
   rspec (>= 2.3)
   rspec-rails (>= 2.3)
